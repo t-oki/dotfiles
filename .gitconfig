@@ -1,0 +1,9 @@
+[user]
+	name = t-oki
+	email = blutac.nz@gmail.com
+[core]
+    excludesfile = ~/.gitignore_global
+[ghq]
+    root = ~/src
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
