@@ -56,8 +56,7 @@ export PATH="$HOME/.nodebrew/current/bin:$PATH"
 eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 
-export PATH=~/.local/bin:$PATH
-# export PATH="/usr/local/bin:/usr/bin"
+[ -s "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
 
 # -------------------------------------
 # zsh options
