@@ -36,7 +36,7 @@ zplug load
 # -------------------------------------
 
 export GOPATH=$HOME
-export GOROOT="/usr/local/Cellar/go/1.18/libexec"
+export GOROOT="/usr/local/Cellar/go/1.18.2/libexec"
 export PATH=$PATH:$GOPATH/bin
 
 export PATH=$HOME/.nodebrew/current/bin:$PATH
