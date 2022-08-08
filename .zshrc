@@ -36,7 +36,7 @@ zplug load
 # -------------------------------------
 
 export GOPATH=$HOME
-export GOROOT="/usr/local/Cellar/go/1.18.2/libexec"
+export GOROOT="/usr/local/Cellar/go/1.19/libexec"
 export PATH=$PATH:$GOPATH/bin
 
 export PATH=$HOME/.nodebrew/current/bin:$PATH
@@ -140,3 +140,7 @@ function peco-src () {
 }
 zle -N peco-src
 bindkey '^]' peco-src
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/takuyaoki/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
