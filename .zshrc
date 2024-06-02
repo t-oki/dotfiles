@@ -2,7 +2,7 @@
 # zplug
 # -------------------------------------
 
-export ZPLUG_HOME=/usr/local/opt/zplug
+export ZPLUG_HOME=$HOMEBREW_PREFIX/opt/zplug
 source $ZPLUG_HOME/init.zsh
 
 #compile if .zwc is old
@@ -36,7 +36,7 @@ zplug load
 # -------------------------------------
 
 export GOPATH=$HOME
-export GOROOT="/usr/local/Cellar/go/1.22.0/libexec"
+export GOROOT="/opt/homebrew/Cellar/go/1.22.2/libexec"
 export PATH=$PATH:$GOPATH/bin
 
 export PATH=$HOME/.nodebrew/current/bin:$PATH
@@ -50,7 +50,7 @@ export PATH="$HOME/.rbenv/shims:$PATH"
 export PATH="/usr/local/opt/inetutils/libexec/gnubin:$PATH"
 export PATH="/usr/local/opt/binutils/bin:$PATH"
 
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
 export PATH="$HOME/.nodebrew/current/bin:$PATH"
 
 eval "$(rbenv init -)"
