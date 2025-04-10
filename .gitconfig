@@ -9,3 +9,7 @@
 	insteadOf = https://github.com/
 [pull]
 	rebase = false
+[grep]
+	lineNumber = true
+[credential]
+	helper = store
