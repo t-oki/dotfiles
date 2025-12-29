@@ -3,3 +3,4 @@
 node_modules/
 bower_components/
 .vscode
+*.csv # 個人情報を含んだCSVファイルを意図せずコミットしないための設定
