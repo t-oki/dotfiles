@@ -7,3 +7,5 @@ bower_components/
 *.csv # 個人情報を含んだCSVファイルを意図せずコミットしないための設定
 
 **/.claude/settings.local.json
+
+**/.claude/.cc-writes/
